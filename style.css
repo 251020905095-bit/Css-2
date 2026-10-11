@@ -7,14 +7,12 @@ header {
     background-color: #4AF3E5;
 }
 
-/* 4. Thay đổi nav thành inline-block và width khoảng 80% */
 nav {
     background-color: #333333;
     display: inline-block;
     width: 80%;
 }
 
-/* 3. Comment lại đoạn styling của thẻ li (nếu ở bài trước có dùng, hoặc thay thế bằng descendent selector bên dưới) */
 /*
 li {
     display: inline-block;
@@ -22,7 +20,6 @@ li {
 }
 */
 
-/* 5. Dùng descendent selector để style riêng hình ảnh trong nav có width khoảng 10% */
 nav img {
     width: 10%;
 }
@@ -46,7 +43,6 @@ p {
     line-height: 1.6;
 }
 
-/* 6, 8. Style class grid: dùng grid 2 cột (mỗi cột khoảng 40%), căn chỉnh cơ bản */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -55,12 +51,10 @@ p {
     row-gap: 20px;
 }
 
-/* 7. Dùng descendent selector để style hình ảnh trong grid có width 100% */
 .grid img {
     width: 100%;
 }
 
-/* 9. Style class flex: dùng flex, flex-wrap và justify-content */
 .flex {
     display: flex;
     flex-wrap: wrap;
